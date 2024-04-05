@@ -18,7 +18,6 @@ module.exports = function (RED) {
     var mqtt = require("mqtt");
     var util = require("util");
     var isUtf8 = require('is-utf8');
-    var HttpsProxyAgent = require('https-proxy-agent');
     var url = require('url');
 
     function digitaloak_MQTTInNode(n) {
