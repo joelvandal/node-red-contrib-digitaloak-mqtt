@@ -1,6 +1,6 @@
 {
   "name": "node-red-contrib-digitaloak-mqtt",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "node-red": {
     "nodes": {
       "digitaloak-mqtt-in": "mqtt.js"
@@ -10,8 +10,7 @@
     "mqtt": "^3.0.0",
     "is-utf8": "^0.2.1",
     "util": "^0.12.1",
-    "url": "^0.11.0",
-    "https-proxy-agent": "^3.0.0"
+    "url": "^0.11.0"
   },
   "directories": {
     "lib": "lib"
